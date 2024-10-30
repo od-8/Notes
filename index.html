@@ -3,14 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="wdith=device-width, initial-scale=1.0">
-        <title> Notes </title>
+        <title> To do list </title>
         <link rel="stylesheet" href="notes.css">
     </head>
     <body id="body">
-        <h1> Notes app</h1>
-        <button id="add-btn" onclick="addNote()">New note</button>
-        <button id="remove-btn" onclick="removeNote()"> Remove note</button>
-        <form id="form"></form>
+        <h1> To Do list</h1>
+        <div id="div">
+            <button id="add-btn" onclick="addNote()" type="button">New note</button>
+        <div>
+        <!-- <button id="remove-btn" onclick="removeNote()"> Remove note</button> -->
+        <form id="form" class="input"></form>
+        <p id="message"></p>
     </body>
     <script src="notes.js"></script>
 </html>

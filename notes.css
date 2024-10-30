@@ -1,1 +1,31 @@
+h1 {
+    text-align: center
+}
+#div {
+    text-align: center;
+}
+#completed, #remove {
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+}
 
+#completed:hover {
+    background-color: rgb(37, 185, 37);
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#remove:hover{
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#new-text {
+    height: 36px;
+    width: 150px;
+    border-radius: 3px;
+    border: 1px solid black;
+    color: black;
+}
