@@ -1,25 +1,32 @@
-h1 {
+/* h1 {
     text-align: center
 }
 #div {
     text-align: center;
 }
-#completed, #remove {
+#remove {
     margin: 5px;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 60px;
+    text-align: center;
 }
 
 #completed:hover {
     background-color: rgb(37, 185, 37);
     border: 1px solid black;
-    border-radius: 3px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px black;
+    margin: 5px;
+    height: 40px;
+    width: 40px;
 }
 
 #remove:hover{
     background-color: red;
     border: 1px solid black;
-    border-radius: 3px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 3px 3px 3px black;
 }
 
 #new-text {
@@ -29,3 +36,15 @@ h1 {
     border: 1px solid black;
     color: black;
 }
+#completed {
+    background-color: transparent;
+    border: 1px solid black;
+    color: white;
+    font-weight: 1000;
+    font-family: monospace;
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: larger;
+} */
